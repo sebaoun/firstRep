@@ -3,6 +3,10 @@
 int main()
 {
 	printf("hello\n");
+#ifdef A
 	printf("A\n");
-	retunr 0;
+#else
+	printf("B\n");
+#endif
+	return 0;
 }
